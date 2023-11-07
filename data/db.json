@@ -1,0 +1,18 @@
+{
+    "blogs":[
+        {
+            "title":"My first blog",
+            "body":"lorem ipsum wejjn wedjnj we alsdma owe iweio owqewei iweiiw woieoio wqei ioqoo wqiewi qwio",
+            "author":"Karki",
+            "id":1
+
+        },
+        {
+            "title":"My Second blog",
+            "body":"lorem ipsum wejjn wedjnj we alsdma owe iweio owqewei iweiiw woieoio wqei ioqoo wqiewi qwio",
+            "author":"Ghimire",
+            "id":2   
+        }
+    ]
+
+}
