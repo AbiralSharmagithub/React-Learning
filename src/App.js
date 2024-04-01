@@ -1,18 +1,14 @@
-import './App.css';
-import Home from './Home';
-import Navbar  from './Navbar';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import "./App.css";
+import Navbar from "./component/Navbar";
+import Textform from "./component/Textform";
 
 function App() {
   return (
     <>
-    <Router>
-     <Navbar />
-     <div className="App">
-      <Home />
-       <h1>Component App</h1>
-     </div>
-     </Router>
+      <Navbar title="TextUtils" aboutText="About" />
+      <div className="container">
+        <Textform heading="Enter index to analyze" />
+      </div>
     </>
   );
 }
